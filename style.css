@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+#rand {
+    height: 80vmin;
+    width: 80vmin;
+    background-color: #CCC;
+    display: grid;
+    margin: auto;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
