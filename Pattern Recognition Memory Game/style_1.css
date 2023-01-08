@@ -1,0 +1,42 @@
+body {
+    background-color: #15202B;
+    font-family: 'Montserrat';
+}
+
+#lvl_head {
+    font-size: 40px;
+    color: #F7C232;
+}
+
+#rand {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 75px;
+    background-color: #15202B;
+    padding: 20px;
+  }
+  
+#rand > div {
+  border: 1px solid orange;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12.5px 0;
+  font-size: 30px;
+  height: 55px;
+}
+
+#display {
+  position: absolute;
+  font-size: 75px;
+  left: 25%;
+  top: 20%;
+  color: #FFF;
+}
+
+#progressBar {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  width: 800px;
+  height: 100px;
+}
